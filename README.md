@@ -1,9 +1,23 @@
 # MusicBot
 
 ## Setup
-Setting up the MusicBot is relatively painless - just follow one of the [guides](https://just-some-bots.github.io/MusicBot/). After that, configure the bot to ensure its connection to Discord.
 
-The main configuration file is `config/options.ini`, but it is not included by default. Simply make a copy of `example_options.ini` and rename it to `options.ini`. See `example_options.ini` for more information about configurations.
+Debian:
+wget https://github.com/rexjohannes/MusicBot/releases/download/b1/debian.sh
+chmod +x debian.sh
+./debian.sh
+
+Ubuntu:
+wget https://github.com/rexjohannes/MusicBot/releases/download/b1/ubuntu.sh
+chmod +x ubuntu.sh
+./ubuntu.sh
+
+From Code:
+wget https://github.com/rexjohannes/MusicBot/archive/b1.zip
+unzip b1
+
+From Repo:
+git clone https://github.com/rexjohannes/MusicBot.git
 
 ### Commands
 
