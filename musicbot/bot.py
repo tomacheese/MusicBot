@@ -1163,7 +1163,8 @@ class MusicBot(discord.Client):
             await self.gen_cmd_list(message)
 
         desc = '```\n' + ', '.join(self.commands) + '\n```\n' + self.str.get(
-            'cmd-help-response', 'For information about a particular command, run `{}help [command]`).format(prefix)
+            'cmd-help-response', 'For information about a particular command, run `{}help [command]`\n'
+                                 'For further help join my Support-Server https://discord.gg/bxDQpQ').format(prefix)
         if not self.is_all:
             desc += self.str.get('cmd-help-all', '\nOnly showing commands you can use, for a list of all commands, run `{}help all`').format(prefix)
 
