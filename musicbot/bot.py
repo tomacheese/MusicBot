@@ -1252,17 +1252,17 @@ class MusicBot(discord.Client):
             raise exceptions.CommandError(self.str.get('cmd-save-invalid', 'There is no valid song playing.'))
 
     @owner_only
-    async def cmd_joinserver(self, message, server_link=None):
+    async def cmd_invite(self, message, server_link=None):
         """
         Usage:
-            {command_prefix}joinserver invite_link
+            {command_prefix}invite invite_link
 
         Asks the bot to join a server.  Note: Bot accounts cannot use invite links.
         """
 
         url = await self.generate_invite_link()
         return Response(
-            self.str.get('cmd-joinserver-response', "Click here to add me to a server: \n{}").format(url),
+            self.str.get('cmd-invite-response', "Click here to add me to a server: \n{}").format(url),
             reply=True, delete_after=30
         )
 
