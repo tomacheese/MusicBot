@@ -1266,38 +1266,38 @@ class MusicBot(discord.Client):
             reply=True, delete_after=30
         )
 
-    async def cmd_karaoke(self, player, channel, author):
-        """
-        Usage:
-            {command_prefix}karaoke
+#    async def cmd_karaoke(self, player, channel, author):
+#        """
+#        Usage:
+#            {command_prefix}karaoke
+#
+#        Activates karaoke mode. During karaoke mode, only groups with the BypassKaraokeMode
+#        permission in the config file can queue music.
+#        """
+#        player.karaoke_mode = not player.karaoke_mode
+#        return Response("\N{OK HAND SIGN} Karaoke mode is now " + ['disabled', 'enabled'][player.karaoke_mode], delete_after=15)
 
-        Activates karaoke mode. During karaoke mode, only groups with the BypassKaraokeMode
-        permission in the config file can queue music.
-        """
-        player.karaoke_mode = not player.karaoke_mode
-        return Response("\N{OK HAND SIGN} Karaoke mode is now " + ['disabled', 'enabled'][player.karaoke_mode], delete_after=15)
-
-    async def _do_playlist_checks(self, permissions, player, author, testobj):
-        num_songs = sum(1 for _ in testobj)
+#    async def _do_playlist_checks(self, permissions, player, author, testobj):
+#        num_songs = sum(1 for _ in testobj)
 
         # I have to do exe extra checks anyways because you can request an arbitrary number of search results
-        if not permissions.allow_playlists and num_songs > 1:
-            raise exceptions.PermissionsError(self.str.get('playlists-noperms', "You are not allowed to request playlists"), expire_in=30)
+#        if not permissions.allow_playlists and num_songs > 1:
+#            raise exceptions.PermissionsError(self.str.get('playlists-noperms', "You are not allowed to request playlists"), expire_in=30)
 
-        if permissions.max_playlist_length and num_songs > permissions.max_playlist_length:
-            raise exceptions.PermissionsError(
-                self.str.get('playlists-big', "Playlist has too many entries ({0} > {1})").format(num_songs, permissions.max_playlist_length),
-                expire_in=30
-            )
+#        if permissions.max_playlist_length and num_songs > permissions.max_playlist_length:
+#            raise exceptions.PermissionsError(
+#                self.str.get('playlists-big', "Playlist has too many entries ({0} > {1})").format(num_songs, permissions.max_playlist_length),
+#                expire_in=30
+#            )
 
         # This is a little bit weird when it says (x + 0 > y), I might add the other check back in
-        if permissions.max_songs and player.playlist.count_for_user(author) + num_songs > permissions.max_songs:
-            raise exceptions.PermissionsError(
-                self.str.get('playlists-limit', "Playlist entries + your already queued songs reached limit ({0} + {1} > {2})").format(
-                    num_songs, player.playlist.count_for_user(author), permissions.max_songs),
-                expire_in=30
-            )
-        return True
+#        if permissions.max_songs and player.playlist.count_for_user(author) + num_songs > permissions.max_songs:
+#            raise exceptions.PermissionsError(
+#                self.str.get('playlists-limit', "Playlist entries + your already queued songs reached limit ({0} + {1} > {2})").format(
+#                    num_songs, player.playlist.count_for_user(author), permissions.max_songs),
+#                expire_in=30
+#            )
+#        return True
 
     async def cmd_play(self, message, player, channel, author, permissions, leftover_args, song_url):
         """
