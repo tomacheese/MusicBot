@@ -25,4 +25,4 @@ git clone https://github.com/rexjohannes/MusicBot.git
 
 ### Commands
 
-blacklist, clean, clear, disconnect, help, id, joinserver, karaoke, leaveserver, listids, np, option, pause, perms, play, pldump, queue, remove, resetplaylist, restart, resume, save, search, setavatar, setname, setnick, shuffle, shutdown, skip, stream, summon, volume
+blacklist, clean, clear, disconnect, help, id, joinserver, leaveserver, listids, np, option, pause, perms, play, pldump, queue, remove, resetplaylist, restart, resume, save, search, setavatar, setname, setnick, shuffle, shutdown, skip, stream, summon, volume
