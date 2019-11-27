@@ -18,7 +18,7 @@ chmod +x ubuntu.sh
 
 From Code:
 wget https://github.com/rexjohannes/MusicBot/archive/b1.1.zip
-unzip b1
+unzip b1.1.zip
 
 From Repo:
 git clone https://github.com/rexjohannes/MusicBot.git
