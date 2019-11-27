@@ -7,17 +7,17 @@
 ## Setup
 
 Debian:
-wget https://github.com/rexjohannes/MusicBot/releases/download/b1/debian.sh
+wget https://github.com/rexjohannes/MusicBot/releases/download/b1.1/debian.sh
 chmod +x debian.sh
 ./debian.sh
 
 Ubuntu:
-wget https://github.com/rexjohannes/MusicBot/releases/download/b1/ubuntu.sh
+wget https://github.com/rexjohannes/MusicBot/releases/download/b1.1/ubuntu.sh
 chmod +x ubuntu.sh
 ./ubuntu.sh
 
 From Code:
-wget https://github.com/rexjohannes/MusicBot/archive/b1.zip
+wget https://github.com/rexjohannes/MusicBot/archive/b1.1.zip
 unzip b1
 
 From Repo:
