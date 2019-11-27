@@ -1,5 +1,9 @@
 # MusicBot
 
+<a href="https://rex-bot.ga/MusicBot/img/bot.png">
+  <img src="https://rex-bot.ga/MusicBot/img/bot.png"/>
+</a>
+
 ## Setup
 
 Debian:
