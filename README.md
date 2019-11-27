@@ -1,7 +1,7 @@
 # MusicBot
 
-<a href="https://rex-bot.ga/MusicBot/img/bot.png">
-  <img src="https://rex-bot.ga/MusicBot/img/bot.png"/>
+<a href="https://github.com/rexjohannes/MusicBot/raw/gh-pages/img/bot.png">
+  <img src="https://github.com/rexjohannes/MusicBot/raw/gh-pages/img/bot.png"/>
 </a>
 
 ## Setup
