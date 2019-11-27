@@ -1,5 +1,10 @@
 {
-    "play": ["p"],
-    "skip": ["s"],
-    "queue": ["q"]
+    "disconnect": ["leave"],
+    "disconnect": ["stop"],
+    "summon": ["join"],
+    "volume": ["vol"],
+    "queue": ["playlist"],
+    "leaveserver": ["serverleave"],
+    "search": ["suche"],
+    "np": ["nowplaying"]
 }
