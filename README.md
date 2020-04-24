@@ -16,6 +16,11 @@ wget https://github.com/rexjohannes/MusicBot/releases/download/b1.3/ubuntu.sh
 chmod +x ubuntu.sh
 ./ubuntu.sh
 
+Raspbian:
+wget https://github.com/rexjohannes/MusicBot/releases/download/b.4/raspbian.sh
+chmod +x raspbian.sh
+./raspbian.sh
+
 CentoOS:
 https://github.com/rexjohannes/MusicBot/wiki/CentOS
 
