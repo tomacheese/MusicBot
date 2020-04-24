@@ -16,6 +16,9 @@ wget https://github.com/rexjohannes/MusicBot/releases/download/b1.3/ubuntu.sh
 chmod +x ubuntu.sh
 ./ubuntu.sh
 
+CentoOS:
+https://github.com/rexjohannes/MusicBot/wiki/CentOS
+
 Windows:
 https://github.com/rexjohannes/MusicBot/wiki/Windows
 
