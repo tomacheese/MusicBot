@@ -19,6 +19,9 @@ chmod +x ubuntu.sh
 CentoOS:
 https://github.com/rexjohannes/MusicBot/wiki/CentOS
 
+Arch:
+https://github.com/rexjohannes/MusicBot/wiki/Arch
+
 OpenBSD:
 https://github.com/rexjohannes/MusicBot/wiki/OpenBSD
 
