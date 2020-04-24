@@ -19,6 +19,9 @@ chmod +x ubuntu.sh
 Windows:
 https://github.com/rexjohannes/MusicBot/wiki/Windows
 
+MacOS: 
+https://github.com/rexjohannes/MusicBot/wiki/MacOS
+
 From Code:
 wget https://github.com/rexjohannes/MusicBot/archive/b1.3.zip
 unzip b1.3.zip
