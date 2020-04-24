@@ -37,8 +37,8 @@ MacOS:
 https://github.com/rexjohannes/MusicBot/wiki/MacOS
 
 From Code:
-wget https://github.com/rexjohannes/MusicBot/archive/b1.3.zip
-unzip b1.3.zip
+wget https://github.com/rexjohannes/MusicBot/archive/b1.4.zip
+unzip b1.4.zip
 
 From Repo:
 git clone https://github.com/rexjohannes/MusicBot.git
