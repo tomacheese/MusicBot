@@ -1,5 +1,7 @@
 # MusicBot
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 <a href="https://github.com/rexjohannes/MusicBot/raw/gh-pages/img/bot.png">
   <img src="https://github.com/rexjohannes/MusicBot/raw/gh-pages/img/bot.png"/>
 </a>
