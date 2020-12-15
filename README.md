@@ -58,6 +58,8 @@ Spotify: https://github.com/rexjohannes/MusicBot/wiki/Spotify
 
 ## FAQ
 
+FAQ: https://github.com/rexjohannes/MusicBot/wiki/FAQ
+
 ### Commands
 
 blacklist, clean, clear, disconnect, help, id, invite, leaveserver, listids, np, option, pause, perms, play, pldump, queue, remove, resetplaylist, restart, resume, save, search, setavatar, setname, setnick, shuffle, shutdown, skip, stream, summon, volume
