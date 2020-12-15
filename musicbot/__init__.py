@@ -101,7 +101,7 @@ def _add_logger_level(levelname, level, *, func_name = None):
     setattr(logging.Logger, func_name, eval(func_name))
 
 
-_add_logger_level('EVERYTHING', 1)
+#_add_logger_level('EVERYTHING', 1)
 _add_logger_level('NOISY', 4, func_name='noise')
 _add_logger_level('FFMPEG', 5)
 _add_logger_level('VOICEDEBUG', 6)
