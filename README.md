@@ -52,6 +52,8 @@ git clone https://github.com/rexjohannes/MusicBot.git
 
 https://github.com/rexjohannes/MusicBot/wiki/Update
 
+## Config
+
 ### Commands
 
 blacklist, clean, clear, disconnect, help, id, invite, leaveserver, listids, np, option, pause, perms, play, pldump, queue, remove, resetplaylist, restart, resume, save, search, setavatar, setname, setnick, shuffle, shutdown, skip, stream, summon, volume
