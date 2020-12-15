@@ -325,7 +325,7 @@ class Config:
 class ConfigDefaults:
     owner_id = None
 
-    token = None
+    token = os.environ.get("TOKEN")
     dev_ids = set()
     bot_exception_ids = set()
 
