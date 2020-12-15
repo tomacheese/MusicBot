@@ -9,6 +9,8 @@
   <img src="https://github.com/rexjohannes/MusicBot/raw/gh-pages/img/bot.png"/>
 </a>
 
+### Python-3.6 is recommand
+
 ## Setup
 
 Debian:
