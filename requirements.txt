@@ -1,7 +1,7 @@
 pynacl==1.4.0
 discord.py[voice]==1.5.1
-asyncio==3.4.3
-aiohttp==3.7.3
+asyncio
+aiohttp
 pip==20.3.1
 youtube_dl==2020.12.14
 colorlog
