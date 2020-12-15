@@ -5,6 +5,6 @@ aiohttp==3.7.3
 pip==20.3.1
 youtube_dl==2020.12.14
 colorlog==4.6.2
-chardet==4.0.0
+chardet
 opuslib==3.0.1
 cffi --only-binary all; sys_platform == 'win32'
