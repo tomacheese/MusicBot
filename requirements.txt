@@ -2,7 +2,7 @@ pynacl==1.4.0
 discord.py[voice]==1.5.1
 asyncio==3.4.3
 aiohttp==1.0
-pip==1.0
+pip==20.3.1
 youtube_dl==1.0
 colorlog==1.0
 chardet==1.0
