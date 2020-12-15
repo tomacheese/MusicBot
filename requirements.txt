@@ -1,7 +1,6 @@
 pynacl==1.4.0	
 discord.py[voice]==1.5.1	
 asyncio
-aiohttp	
 pip
 youtube_dl==2020.12.14
 opuslib==3.0.1
