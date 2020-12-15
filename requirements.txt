@@ -1,10 +1,8 @@
-pynacl==1.4.0
-discord.py[voice]==1.5.1
-asyncio
-aiohttp
-pip
 youtube_dl==2020.12.14
-colorlog
 chardet
 opuslib==3.0.1
+pynacl==1.2.1
+discord.py[voice]==1.2.5
+pip
+colorlog
 cffi --only-binary all; sys_platform == 'win32'
