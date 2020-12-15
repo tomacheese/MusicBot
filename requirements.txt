@@ -4,5 +4,4 @@ opuslib==3.0.1
 pynacl==1.2.1
 discord.py[voice]==1.2.5
 pip
-colorlog
 cffi --only-binary all; sys_platform == 'win32'
