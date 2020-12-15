@@ -235,7 +235,6 @@ class URLPlaylistEntry(BasePlaylistEntry):
 
         except Exception as e:
             traceback.print_exc()
-            self._for_each_future(lambda future: future.set_exception(e))
 
         finally:
             self._is_downloading = False
